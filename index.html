@@ -244,14 +244,21 @@ We support industries, MSMEs, startups and exporters by providing end-to-end tec
 
 </div>
 
-<form action="mailto:sales@riddhiconsultant.com" method="post" enctype="text/plain" class="grid gap-4">
+<form action="https://formsubmit.co/sales@riddhiconsultant.com" method="POST" class="grid gap-4">
 
-<input required placeholder="Name" class="p-3 text-black">
-<input required placeholder="Email" class="p-3 text-black">
-<input required placeholder="Phone" class="p-3 text-black">
-<textarea required placeholder="Your Requirement" class="p-3 text-black"></textarea>
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_subject" value="New Website Inquiry - Riddhi Consultant">
 
-<button class="bg-yellow-400 text-black font-black py-3">Send Enquiry</button>
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="email" name="email" placeholder="Your Email" required>
+
+<input type="tel" name="phone" placeholder="Phone Number">
+
+<textarea name="message" placeholder="Your Message" rows="4"></textarea>
+
+<button type="submit">Send Message</button>
 
 </form>
 
@@ -272,3 +279,4 @@ We support industries, MSMEs, startups and exporters by providing end-to-end tec
 
 </body>
 </html>
+
